@@ -1,6 +1,18 @@
 # CURD API with JWT
 
-A brief description of your project.
+## Project Description
+
+This project is a robust Node.js-based application designed with a modular and scalable architecture. The application leverages Sequelize ORM for database interactions, following the MVC (Model-View-Controller) design pattern. It features a role-based access control (RBAC) system, enabling secure and efficient management of users and resources. The project is structured to facilitate easy maintenance, scalability, and clear separation of concerns, making it suitable for both small-scale and large-scale applications.
+
+Key features of the project include:
+
+- **Role-Based Access Control (RBAC):** Ensures that users have access only to the resources and actions permitted by their roles.
+- **Authentication & Authorization:** Utilizes JWT for secure user authentication and token-based authorization.
+- **RESTful API Design:** Provides well-defined routes for managing users and resources with support for CRUD operations.
+- **Error Handling:** Includes middleware for global error handling, ensuring consistent and clear error responses.
+- **Configuration Management:** Centralizes configuration in a single location, simplifying the process of adapting the application to different environments.
+
+This project is ideal as a starting point for building secure and scalable backend systems, particularly those requiring user management and resource control.
 
 ## Project Structure
 
